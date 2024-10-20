@@ -1,0 +1,158 @@
+.header-section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url('./asset/lava.gif'); 
+    background-position: top;
+    background-size: cover; 
+}
+
+.logo-section{
+    margin: 10px 30px 10px 30px;
+    padding: 0;
+}
+
+.logo{
+    height: 40px;
+    filter:invert(2);
+}
+
+body{
+    background-image: url('./asset/smithereens-bg.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.btn-primary{
+    color: white;
+    border: 1px solid rgb(3, 145, 116);
+    background-color: #007bff;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #06478e;
+    border-color: rgb(1, 105, 84);
+}
+
+.left-sidebar{
+    background-color: rgba(0, 0, 0, 0.319);
+    padding: 20px;
+}
+
+.container-1{
+    background-color: linear-gradient rgba(255, 255, 255, 0.756), rgba(255, 255, 255, 0.736);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.text-container-1{
+    padding: 20px;
+    color: white;
+}
+
+.main-content{
+    background-color: rgba(0, 0, 0, 0.319);
+    padding: 20px;
+}
+
+.container-1{
+    background-color: linear-gradient rgba(255, 255, 255, 0.756), rgba(255, 255, 255, 0.736);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    max-height: 95vh;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.table{
+    width: 100%;
+}
+.table-main{
+    width: 100%;
+    line-height: 2;
+    text-align: justify;
+}
+
+.table-head{
+    position: sticky;
+    top: 0;
+    background-color: rgb(24, 27, 28);
+    color: white;
+    min-width: 100px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ababab;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #dedede; 
+}
+
+tbody tr:hover {
+    background-color: #6b6d6d; 
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    background-image: url('./asset/joji1.jpg'); 
+    background-position: top;
+    background-size: cover; 
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+

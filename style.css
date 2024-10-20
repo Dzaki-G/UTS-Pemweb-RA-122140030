@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    margin: 0;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.background {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./asset/bg2.jpg');
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; 
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; 
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056b3; 
+}
+
+
+.navbar.custom-navbar1 {
+    background-color: #ffffff; 
+    color: white;
+    background-image: url('./asset/lava.gif'); 
+    background-size: cover; 
+    background-position: top;
+    border-top: 1px solid black;
+}
+
+.navbar.container-fluid.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button{
+    margin: 0;
+    color: black;
+    width: 100%;
+}
+
+.nav-button ul li{
+    list-style: none;
+    margin: 0px;
+    border: 1px solid rgb(22, 21, 21);
+    border-left: 0;
+    border-right: 0;
+}
+
+.nav-button ul li a{
+    color: rgb(29, 28, 28);
+    text-decoration: none;
+    line-height: 3;
+}
+
+.nav-button ul li:hover{
+    font-weight: 500;
+    filter: brightness(100);
+}
+    
+
+.join-section{
+    text-align: center;
+}
+
+
+.logo{
+    height: 30px;
+    filter:invert(2);
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    top: 20%;
+    left: 50%;
+    position:relative;
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 180px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5), 
+    5px 5px 70px rgba(255, 255, 255, 0.5);
+    transform: scale(1,1.1) translate(-50%, 10%);
+    margin-bottom: 100px;
+}
+
+.container-1{
+    background-color: linear-gradient rgba(255, 255, 255, 0.756), rgba(255, 255, 255, 0.736);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 90%;
+    min-height: fit-content;
+    margin: 20px 10px 10px 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.container-2{
+    background-color: linear-gradient rgba(255, 255, 255, 0.756), rgba(255, 255, 255, 0.736);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 90%;
+    min-height: 700px;
+    margin: 20px 10px 10px 10px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.custom-main{
+    font-family: 'Franklin Gothic light';
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.custom-main img{
+    width: 80%;
+}
+.custom-main p{
+    padding-top: 20px;
+}
+
+.sidebar{
+    border-top: 1px solid black;
+    font-family: 'Fjalla One', sans-serif;
+    color: #1e1d1d;
+    font-size: 20px;
+}
+
+.sidebar .diddy{
+    color: #1e1d1d;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+}
+
+.sidebar .diddy:hover{
+    opacity: 10%;
+}
+
+.footer{
+    border-top: 1px solid black;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+
+.footer .diddy{
+    color: #1e1d1d;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+}
+
+.footer a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: aliceblue;
+}
+
+.nectar input {
+    width: 200px;
+    height: 200px;
+    appearance: none;
+    position: absolute;
+}
+
+input:checked ~ img {
+    translate: 0 140px;
+    animation: rotate 5s linear infinite;
+}
+
+.nectar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-image: url("./asset/smithereens-bg.jpg");
+    background-size: cover;
+    border: 5px inset gray;
+}
+
+.nectar img{
+    transition: 1s;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}

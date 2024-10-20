@@ -1,0 +1,170 @@
+.header-section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url('./asset/lava.gif'); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; 
+}
+
+.logo{
+    height: 40px;
+    filter:invert(2);
+}
+
+.logo-section{
+    margin: 10px 30px 10px 30px;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url('./asset/smithereens-bg.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+.left-sidebar{
+    background-color: rgba(0, 0, 0, 0.319);
+    padding: 20px;
+}
+
+.container-1{
+    background-color: linear-gradient rgba(255, 255, 255, 0.756), rgba(255, 255, 255, 0.736);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.text-container-1{
+    padding: 20px;
+    color: white;
+}
+
+.main-content{
+    background-color: rgba(0, 0, 0, 0.319);
+    padding: 20px;
+}
+
+.glass-main-content{
+    background-color: linear-gradient rgba(255, 255, 255, 0.756), rgba(255, 255, 255, 0.736);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    justify-content: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container{
+    margin: 10px;
+    color: white;
+}
+
+.btn-primary{
+    color: white;
+    border: 1px solid rgb(3, 145, 116);
+    background-color: #007bff;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #0654a8;
+    border-color: rgb(1, 105, 84);
+}
+
+.view-data-button{
+    background-color: rgb(1, 105, 84);
+    border-color: rgb(3, 145, 116);
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.view-data-button a{
+    color: white;
+    font-family: 'Fjalala One';
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+.sidebar{
+    background-color: rgba(0, 0, 0, 0.319);
+    padding: 20px;
+    color: white;
+}
+
+.container-2{
+    background-color: linear-gradient rgba(255, 255, 255, 0.756), rgba(255, 255, 255, 0.736);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    background-image: url('./asset/joji1.jpg'); 
+    background-position: top;
+    background-size: cover; 
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
